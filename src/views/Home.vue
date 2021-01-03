@@ -8,12 +8,12 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import WebRtcService from "@/services/webrtc.service"
+import WebRtcService from "@/services/webrtc.service";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
